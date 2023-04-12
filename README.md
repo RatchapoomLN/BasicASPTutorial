@@ -2,6 +2,7 @@
 ASP.NET Core MVC (.NET 7) | ระบบบันทึก/ลบ คะแนนนักเรียน
 
 ## ข้อมูลนี้ ถูกนำมาจาก ช่อง Youtube KongRuksiam Official ไม่มีการตั้งใจลอกเลียนแบบ หรือ คัดลอกมาเพื่อใช้ประโยชน์เชิงพาณิชย์แต่อย่างใด!
+- [ดูคลิปกดเลย](https://youtu.be/U77ayrSIrHs)
 
 ## 🎓 พื้นฐานที่ต้องเรียนมาก่อน (ฟรี)
 - [HTML5](https://www.youtube.com/watch?v=0hfeNPM7piw&list=PLltVQYLz1BMDf-N2ZmyJKEv4VlpM_9m67)
@@ -17,12 +18,16 @@ ASP.NET Core MVC (.NET 7) | ระบบบันทึก/ลบ คะแน�
 - [SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
 
+## 💯 ขั้นตอน
+- สร้างโปรเจค ASP.NET Core Web App (Model-View-Controller)
+- โหลด Nuget Package Tools > Nuget Package Manager > Nuget Package for Solution > Browse
+
+
 ## 💎 Connection Strings
 "ConnectionStrings": { "DefaultConnection": "Server=ชื่อ Sever;
 					     Database=ชื่อฐานข้อมูล;
 					     Trusted_Connection=True;
-					     TrustServerCertificate=True" 
-}
+					     TrustServerCertificate=True" }
 
 ## 🎨 Nuget Package
 - Microsoft.EntityFrameworkCore
